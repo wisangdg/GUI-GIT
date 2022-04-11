@@ -1,0 +1,33 @@
+* {
+    margin: auto;
+    font-family: 'Akshar', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: auto;
+    height: 600px;
+
+}
+
+li {
+    padding: 30px 2px 110px 0px;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.top {
+    padding: 0%;
+    margin-left: 0;
+    border-spacing: 0;
+    background-color: #07a0c3;
+    width: 250px;
+
+}
+
+.home {
+    display: flex;
+    margin-bottom: 100px;
+    text-align: center;
+}

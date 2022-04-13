@@ -3,11 +3,21 @@
     font-family: 'Akshar', sans-serif;
 }
 
+body {
+    height: 200px;
+    background-color: #5B72B0
+}
+
 ul {
     list-style-type: none;
     margin-left: auto;
     height: 600px;
 
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 li {
@@ -21,13 +31,17 @@ li {
     padding: 0%;
     margin-left: 0;
     border-spacing: 0;
-    background-color: #07a0c3;
+    background-color: #1E336C;
+    color: white;
     width: 250px;
-
+    border: 3px solid black;
 }
 
 .home {
-    display: flex;
-    margin-bottom: 100px;
-    text-align: center;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+    color: white;
 }
